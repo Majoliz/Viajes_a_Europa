@@ -1,0 +1,39 @@
+.contenedor{
+width:100%;
+display:flex;
+max-width: 1100px;
+}
+.tarjetas{
+    
+margin: 20px;
+border-radius: 6px;
+background-color: #FAF6F0;
+overflow:hidden;
+box-shadow: 0px 1px 10px rgba(0,0,0,0);
+cursor: default;
+transition:all 400ms ease;
+}
+.tarjetas img{
+    width: 150%;
+    height: 250px;
+
+}
+.tarjetas .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.tarjetas .contenido p{
+    line-height: 1.5;
+    color: black;
+
+}
+
+.tarjetas .contenido h1{
+    margin-bottom: 15px;
+    color: #53484E;
+    font-size: 100px;
+}
+.tarjetas:hover{
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 20px rgba (0,0,0, 0.2);
+}
